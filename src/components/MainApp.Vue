@@ -1,5 +1,6 @@
 <template>
     <main>
+        
     </main>
 </template>
 
@@ -8,7 +9,6 @@ export default {
     name : 'MainApp'
 }
 </script>
-
-<style lang="scss" scoped>
+<style lang="scss">
     
 </style>
