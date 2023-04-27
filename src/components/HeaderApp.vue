@@ -20,9 +20,18 @@
                 <a href="#"> Add Car </a>
             </div>
             <div class="dropdown d-block d-xl-none">
-                <button class="btn dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" >
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="../img/svg/burger-list-menu-navigation.svg" alt="">
                 </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Home</a></li>
+                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                    <li><a class="dropdown-item" href="#"> Vehicles </a></li>
+                    <li><a class="dropdown-item" href="#"> Dealers </a></li>
+                    <li><a class="dropdown-item" href="#"> Packages </a></li>
+                    <li><a class="dropdown-item" href="#"> Blog </a></li>
+                    <li><a class="dropdown-item d-lg-none" href="#"> Contact Us! </a></li>
+                </ul>
             </div>
             <div class="blackLink d-none d-lg-block">
                 <img src="../img/header/headphones.png" alt="headphones">
@@ -70,7 +79,7 @@ export default {
         justify-content: center;
         align-items: center;
         gap: 5px;
-        height:100%;
+        height:5vh;
     }
     .blackLink a{
         color: #ffffff;

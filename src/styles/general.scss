@@ -1,0 +1,14 @@
+@use './variables.scss' as *;
+
+//fonts
+@import '@fontsource/open-sans/index.css';
+@import '@fontsource/open-sans/300.css';
+@import '@fontsource/open-sans/500.css';
+@import '@fontsource/open-sans/700.css';
+
+$fa-font-path: '../webfonts';
+
+body {
+    font-family: $main-font;
+    color: $text-color;
+}
