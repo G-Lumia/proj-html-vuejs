@@ -1,8 +1,8 @@
 <template>
     <header class="py-4 d-flex justify-content-center">
-        <div class="container d-flex align-items-center  justify-content-between m-0">
-            <img src="../assets/img/logo/logo-autocar11.png" alt="logo">
-            <div class="links px-4 d-flex gap-4">
+        <div class="d-flex align-items-center  justify-content-between m-0">
+            <img class="logo" src="../img/logo/logo-autocar11.png" alt="logo">
+            <div class="links px-4 gap-4 d-none d-xl-flex">
                 <a href="#"> Home </a>
                 <a href="#"> About Us </a>
                 <a href="#"> Vehicles </a>
@@ -12,21 +12,27 @@
                 <a href="#"> Contact </a>
             </div>
             <div class="blackLink">
-                <img src="../assets/img/header/padlock.png" alt="account">
+                <img src="../img/header/padlock.png" alt="account">
                 <a href="#"> My Account</a>
             </div>
             <div class="blackLink">
-                <img src="../assets/img/header/add.png" alt="add">
+                <img src="../img/header/add.png" alt="add">
                 <a href="#"> Add Car </a>
             </div>
-            <div class="blackLink">
-                <img src="../assets/img/header/headphones.png" alt="headphones">
+            <div class="dropdown d-block d-xl-none">
+                <button class="btn dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" >
+                    <img src="../img/svg/burger-list-menu-navigation.svg" alt="">
+                </button>
+            </div>
+            <div class="blackLink d-none d-lg-block">
+                <img src="../img/header/headphones.png" alt="headphones">
                 <a href="#"> +1 (234) 567 89 10</a>
             </div>
         </div>
     </header>
 </template>
 <script>
+
 export default {
     name : 'HeaderApp'
 }
@@ -34,17 +40,18 @@ export default {
 
 <style lang="scss" scoped>
     header{
-        height:80px;
+        height:10vh;
         width:100%;
+        background-color: #ffffff;
     }
 
-    header img{
-        max-width:80px;
+    header .logo{
+        max-width:200px;
     }
 
     a{
         text-decoration: none;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .links a{
@@ -73,7 +80,7 @@ export default {
         }
     }
     .blackLink img{
-        max-height: 100%;
+        height: 100%;
         filter: invert(1);
     }
 </style>

@@ -8,7 +8,7 @@
 <script>
   import HeaderApp from './components/HeaderApp.vue';
   import FooterApp from './components/FooterApp.vue';
-  import MainApp from './components/MainApp.Vue'
+  import MainApp from './components/MainApp.vue'
 
   export default{
     name: 'App',
