@@ -49,7 +49,7 @@ const carsList = [
         img : "taigo.jpg"
     },
     {
-        name : 'Volsagen T-Cross',
+        name : 'Volswagen T-Cross',
         category : 'SUV',
         price : '47.000',
         brand : 'Volswagen',
@@ -57,7 +57,7 @@ const carsList = [
         img : "t-cross.jpg"
     },
     {
-        name : 'Volsagen Passat',
+        name : 'Volswagen Passat',
         category : 'Sedan',
         price : '32.000',
         brand : 'Volswagen',

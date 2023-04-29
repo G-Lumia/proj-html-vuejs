@@ -1,6 +1,8 @@
 <template>
     <div>
-        <CarCard v-for="(car,index) in carsList" :car="car" :key="index"/>
+        <div class="row">
+            <CarCard v-for="(car,index) in carsList" :car="car" :key="index"/>
+        </div>
     </div>
 </template>
 <script>
